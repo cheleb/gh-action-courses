@@ -5,7 +5,7 @@ on: [push]
 jobs:
    hello:
     name: "Say hello"
-    runs-on:  "ubuntu"
+    runs-on:  ubuntu-latest
     steps:
       - name: Say hello
         run: echo Hello
